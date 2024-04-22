@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>La Perla Blanca</title>
+    <meta name="author" content="Kevin Duarte Borrayo">
+    <meta name="description" content="La Perla Blanca Resort.">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,900;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="cssobfuscated.css">
+</head>
+<body>
+    <header>
+        <h1>La Perla Blanca</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Accommodations</a></li> 
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="hero">
+        <img src="swiss-valley.jpg" alt="A picturesque view of Swiss Valley in the Alps">
+    </div>
+
+    <main id="top">
+        <h2>Contact Us</h2>
+        <div>
+        <section id="left">
+            <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!</p>
+            <img src="swiss-peak.jpg" alt="The majestic Swiss peak">
+        </section>
+        </div>
+        <div>
+        <section id="right">
+            <form action="https://wp.zybooks.com/form-viewer.php" target="_blank" method="POST">
+                <label for="full-name">Full Name *</label><br>
+                <input type="text" id="full-name" name="full-name" required><br><br>
+                
+                <label for="email">Email Address *</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label for="phone">Phone Number *</label><br>
+                <input type="tel" id="phone" name="phone" required><br><br>
+                
+                <fieldset class="contact-method">
+                    <legend>Preferred Contact Method *</legend>
+                    <input type="radio" name="contact-pref" id="pref-email" value="prefer-email" required checked>
+                    <label for="pref-email">Email</label>
+                    <input type="radio" name="contact-pref" id="pref-phone" value="prefer-phone" required>
+                    <label for="pref-phone">Phone</label>
+                </fieldset><br>
+                
+                <label for="comments">Comments *</label><br>
+                <textarea id="comments" name="comments" rows="4" required></textarea><br><br>
+                
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>Copyright ©2023 - La Perla Blanca</p>
+        <p>This site is for educational purposes only</p>
+    </footer>
+</body>
+</html>
